@@ -1,6 +1,6 @@
 count = 331
 puts "Загадано число от 0 до 1000, отгадайте какое?"
-while true
+while true do
 	predict = gets.chomp.to_i
 	if predict < count
 		puts "Тепло (нужно больше)"
